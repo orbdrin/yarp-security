@@ -6,8 +6,6 @@ from socket import *
 from datetime import datetime
 import sys, time
 
-target, min_port, max_port
-
 # Scanning Function
 def scan_target(target, port, r_code = 1):
     try:
